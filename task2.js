@@ -69,3 +69,14 @@ getData();
 
 //git config --global user.email "Enter you email ID here"
 //git config --global user.name "Enter your name here"
+
+
+git config --global user.email "Enter you email ID here"
+git config --global user.name "Enter your name here"
+git init
+git remote add origin <repositary-url>
+git add -A
+git commit -m "commit message"
+git commit -m "solution"
+git branch -M main
+git push -u origin main
